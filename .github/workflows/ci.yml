@@ -221,8 +221,8 @@ jobs:
       fail-fast: false
       matrix:
         ansible:
-          - stable-2.17
-          # - devel
+          #- stable-2.17
+           - devel
     steps:
       - name: Perform sanity testing
         uses: ansible-community/ansible-test-gh-action@release/v1
